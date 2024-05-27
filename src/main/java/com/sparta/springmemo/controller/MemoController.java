@@ -17,7 +17,7 @@ public class MemoController {
     private final MemoService memoService;
 
 
-    public MemoController(MemoService memoService) {
+    public MemoController(MemoService memoService) {//빨간줄의 발생이유: 얘가 빈이 아니어서그럼 ㅇㅇ
         this.memoService = memoService;
     }
 
